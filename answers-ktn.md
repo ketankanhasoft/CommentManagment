@@ -20,7 +20,7 @@ Please customize the code according to your specific requirements and ensure tha
 -   The ternary condition seems to be bit longer then needed, need to simplify the same
 -   Here, we need to use mysqli_fetch_assoc() instead of mysqli_fetch_row() to fetch the row as an associative array, also this will allow you to access columns by their names.
 
-#####Here is the refactored code ::
+##### Here is the refactored code ::
 
 ```php
 $masterEmail = '';
@@ -35,7 +35,7 @@ $row = mysqli_fetch_assoc($res);
 echo $row['username'] . "\n";
 ```
 
-###4. Open source libraries
+### 4. Open source libraries
 
 -   The decision to use a class or library provided by an external framework should be based on a careful evaluation of the specific requirements and considerations of your project.
 -   It is essential to weigh the benefits and potential drawbacks before making a decision.
